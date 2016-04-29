@@ -1,0 +1,20 @@
+{
+  "name": "doctorgap",
+  "version": "1.0.0",
+  "description": "Service for people to connect with medical practioners online to get medical certificates and prescription.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/luke-john/doctorgap.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/luke-john/doctorgap/issues"
+  },
+  "homepage": "https://github.com/luke-john/doctorgap#readme"
+}
