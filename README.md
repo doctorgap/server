@@ -2,6 +2,11 @@
 
 Service for people to connect with medical practioners online to get medical certificates and prescription.
 
+## Starting Server
+
+$ DEBUG=server:* npm start
+
+
 ## Unique Value Propositions
 
 * Mobile accessible
