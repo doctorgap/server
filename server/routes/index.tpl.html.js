@@ -7,6 +7,7 @@ const template = (params) => `<!DOCTYPE html>
   <h1>
     Doctor Gap
   </h1>
+  <img src="images/logo-facebook.png" />
   <br>
   ${new Date()}
 </body>
