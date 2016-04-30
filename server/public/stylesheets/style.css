@@ -6,3 +6,39 @@ body {
 a {
   color: #00B7FF;
 }
+
+html, body, .background, .content, .glass {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: 0;
+  padding: 0;
+}
+
+.background {
+  background-image: url("/images/background.jpg");
+  background-size: cover;
+  background-position-x: center;
+  background-position-y: center;
+  z-index: -2;
+}
+
+.content {
+  top: 10px;
+  bottom: 10px;
+  left: 10px;
+  right: 10px;
+  padding: 32px;
+}
+
+.glass {
+  background-color: #FFFFFF;
+  opacity: 0.4;
+  z-index: -1;
+}
+
+body > div {
+  /*background-color: #111111;*/
+}
