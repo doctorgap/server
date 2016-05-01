@@ -26,10 +26,10 @@ html, body, .background, .content, .glass {
 }
 
 .content {
-  top: 10px;
-  bottom: 10px;
-  left: 10px;
-  right: 10px;
+  top: 16px;
+  bottom: 16px;
+  left: 16px;
+  right: 16px;
   padding: 32px;
 }
 
@@ -41,4 +41,27 @@ html, body, .background, .content, .glass {
 
 body > div {
   /*background-color: #111111;*/
+}
+
+#vid-box {
+  display: inline-block;
+  background-color: #EEEEEE;
+  border: solid 1px #777777;
+  padding: 32px;
+}
+
+#vid-box > img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+input {
+  font-size: 32px;
+}
+
+input[type="text"] {
+  width: 40%;
+}
+input[type="submit"] {
+  width: 15%;
 }
